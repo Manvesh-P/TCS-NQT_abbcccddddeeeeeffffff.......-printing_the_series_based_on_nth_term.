@@ -1,0 +1,26 @@
+# TCS-NQT abbcccddddeeeeeffffff...... printing the series based on the nth term
+
+list1 = []
+list2 = []
+c = 1
+
+n = int(input("Enter the last term:"))
+
+for i in range(97, 123):
+    list1.append("%c"%i)
+    
+# print(list1)
+
+for i in range(0, len(list1)):
+    list2.append(list1[i]*c)
+    c += 1
+
+# print(list2)
+    
+l3 = ''.join(list2)
+
+# print(l3)
+
+for i in range(0, len(l3)):
+    if i < n:
+        print(l3[i], end='')
