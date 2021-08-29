@@ -1,0 +1,1 @@
+# TCS-NQT_abbcccddddeeeeeffffff.......-printing_the_series_based_on_nth_term.
